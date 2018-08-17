@@ -1,0 +1,16 @@
+{
+  "name": "vr-chat-knock-off",
+  "version": "0.0.1",
+  "description": "A knock off of vr chat built with a frame and socket io for live interaction",
+  "main": "app.js",
+  "scripts": {
+  },
+  "keywords": [
+    "VR",
+    "Aframe",
+    "Socketio",
+    "Games"
+  ],
+  "author": "Chris Belligiere",
+  "license": "MIT"
+}
