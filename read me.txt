@@ -1,0 +1,12 @@
+how to run
+-install node.js
+https://nodejs.org
+
+-when you have node js install express and socket.io
+run cmd/powershell/terminal and copy and paste this command
+npm install socket.io express -g
+
+open a cmd/powershell/terminal in the folder this file is and 
+and copy and paste
+node app.js
+

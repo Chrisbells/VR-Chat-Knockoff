@@ -33,12 +33,10 @@ io.on('connect', socket => {
     socket.on('playerUpdate', update => {
         players[update.id].position = update.position
         players[update.id].rotation = update.rotation
-        io.sockets.emit('playerUpdate', update)
     })
 })
-
 server.listen(80, '0.0.0.0')
 console.log(`Server is running to access on this device go to http://localhost or for devices on the network go to http://${require('os').hostname()}`)
 setInterval(function () {
     console.dir(players)
-}, 5000)
+}, 1000)
